@@ -1,5 +1,11 @@
+import Nav from './Nav/Nav';
+
 function FooterBar() {
-  return <footer>푸터 입니다</footer>;
+  return (
+    <footer>
+      <Nav />
+    </footer>
+  );
 }
 
 export default FooterBar;
